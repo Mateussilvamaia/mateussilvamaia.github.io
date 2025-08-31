@@ -42,59 +42,7 @@
       </div>
     </div>
   </nav>
-   <title>Foguete Subindo</title>
-  <style>
-    /* Estilos para o corpo da página */
-    body {
-      margin: 0;
-      height: 100vh; /* Altura total da tela */
-      display: flex;
-      justify-content: center;
-      align-items: flex-end; /* Alinha tudo ao fundo */
-      background-color: #282c34;
-      overflow: hidden;
-    }
-
-    /* Foguete */
-    .rocket {
-      width: 50px;
-      height: 100px;
-      background-color: #ffcc00;
-      position: relative;
-      border-radius: 10px;
-      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
-      animation: flyUp 5s infinite; /* Animação de subida */
-    }
-
-    /* Foguete visual (base e chamas) */
-    .rocket::after {
-      content: '';
-      position: absolute;
-      bottom: -20px;
-      left: 10px;
-      width: 30px;
-      height: 20px;
-      background-color: red;
-      border-radius: 50%;
-      box-shadow: 0px 10px 15px rgba(255, 0, 0, 0.8);
-    }
-
-    /* Animação de subida */
-    @keyframes flyUp {
-      0% {
-        transform: translateY(0); /* Inicia na base */
-      }
-      100% {
-        transform: translateY(-100vh); /* Sobe até fora da tela */
-      }
-    }
-
-  </style>
-</head>
-<body>
-
-  <!-- Div que representa o foguete -->
-  <div class="rocket"></div>
+   
   <!-- header -->
   <header id="header" class="max-width">
       <div class="header__right">
